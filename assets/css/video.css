@@ -1,0 +1,167 @@
+.videos {
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 20px;
+}
+
+.doctor {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+}
+
+.learn-video {
+    width: 100%;
+    height: 50px;
+    background: #47C7E4;
+    position: relative;
+    margin-top: 20px;
+}
+
+.learn-video::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%) rotate(45deg);
+    width: 13px;
+    height: 13px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #fff #fff transparent transparent;
+}
+
+.learn-video::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(45deg);
+    width: 13px;
+    height: 13px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #fff #fff transparent transparent;
+}
+
+.learn-video img {
+    width: 135px;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.learn-video .title {
+    margin-left: 200px;
+    height: 50px;
+}
+
+.learn-video .title b,
+.learn-video .title p {
+    font-size: 29px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.learn-video .title b {
+    margin-right: 12px;
+}
+
+.learn-video .title p {
+    margin-bottom: 0;
+}
+
+.big-video {
+    padding-right: 14px;
+}
+
+.big-video-title a {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 28px;
+    color: #333333;
+    margin: 20px 0;
+    display: block;
+}
+
+.big-video-decs {
+    font-size: 1.3rem;
+    line-height: 19px;
+    text-align: justify;
+    color: #4D4D4D;
+    cursor: default;
+}
+
+.big-video-decs a {
+    color: #FFAA00;
+}
+
+.small-video {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.small-video div img {
+    width: 100%;
+}
+
+.small-video-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #333333;
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+.video-img {
+    position: relative;
+}
+
+.play-video {
+    width: 50px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.play-video img {
+    width: 50px;
+    height: 34px;
+}
+
+.video-time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.more-video {
+    margin-top: 20px;
+}
+
+.list-video .view-item:first-child {
+    padding-top: 5px;
+}
+
+.view-video {
+    display: flex;
+    align-items: center;
+}
+
+.view-video img {
+    width: 20px;
+    height: 20px;
+}

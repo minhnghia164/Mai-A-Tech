@@ -1,0 +1,46 @@
+:root {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* font-size: 100%; */
+    line-height: 1.6rem;
+    font-family: 'Roboto', serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hiden {
+    display: none !important;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
